@@ -6,6 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 /test/e2e/reports/
 selenium-debug.log
+.firebase.json
+.firebaserc
+
 
 # Editor directories and files
 .idea

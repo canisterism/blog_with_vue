@@ -1,13 +1,14 @@
 import Vue from 'vue'
-import Router from 'vue-router'
+import VueRouter from 'vue-router'
 import Index from '@/components/Index'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
 import articleTemplate from '@/components/ArticleTemplate'
 
-Vue.use(Router)
+Vue.use(VueRouter)
 
-let router = new Router({
+let router = new VueRouter({
+  mode: 'history',
   routes: [
     {
       path: '*',
